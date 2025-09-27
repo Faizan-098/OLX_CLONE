@@ -1,0 +1,105 @@
+.postContainer{
+    display: flex;
+    align-items: flex-start;
+    max-width: 1300px;
+    width: 100%;
+    gap: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-inline: 15px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300;
+    flex-grow: 1;
+    border: 1px solid #555;
+    padding: 10px;
+   align-items: center;
+   position: sticky;
+   top: 100px;
+ 
+}
+.icon{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #00454c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    color: #FFF;
+    
+}
+h2{
+    font-size: 40px;
+}
+h2 , h3{
+color: #00454c;
+}
+.userPosts{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+.cross{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  position: absolute;
+  right: 9px;
+  top:4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+
+}
+/* Target the card class you already pass */
+/* .cross {
+  position: relative;
+ /* so the cross can position itself */
+/* } */
+
+/* The cross appears only on hover */
+/* .cross::after {
+  content: "×"; /* the cross sign */
+  /* position: absolute;
+
+  top: 8px;
+  right: 8px;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  width: 30px;
+  height: 30px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+} */
+
+/* .cross:hover::after {
+  opacity: 1;
+} */ 
+
+@media screen and (max-width:600px) {
+  h1{
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .profile{
+    position: static;
+  }
+}

@@ -1,0 +1,102 @@
+.postContainer {
+  background-color: #EBF1FF; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.postData {
+  background: #fff;
+  width: 100%;
+  max-width: 900px;           /* slightly wider to fit two inputs */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.postData h2 {
+  color: #002F34;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+
+/* new row wrapper */
+.inputRow {
+  display: flex;
+  gap: 1rem;         /* space between columns */
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.inputRow .inputField {
+  flex: 1;           /* each inputField takes 50% */
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.inputField label {
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.inputField input,
+.inputField textarea {
+  padding: 0.75rem 1rem;
+  border: 2px solid rgb(205, 205, 205);
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.inputField input:focus,
+.inputField textarea:focus {
+  border-color: #007380;
+  box-shadow: 0 0 4px #008c9b;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  background-color: #002F34;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #00454c;
+}
+.inputImage{
+  width: 100%;
+height: 200px;
+
+  border: 2px dashed  rgb(205, 205, 205);;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: #002F34;
+  opacity: 0.7;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
