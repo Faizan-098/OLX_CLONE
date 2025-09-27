@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import style from './detailedCard.module.css'
+import style from './DetailedCard.module.css'
 import { FaUserGraduate } from 'react-icons/fa6';
 import { FiPhoneCall } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
