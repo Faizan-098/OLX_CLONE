@@ -100,3 +100,8 @@ height: 200px;
 }
 
 
+@media screen and (max-width:600px) {
+ .postContainer{
+  padding-top: 30px;
+ }
+}
