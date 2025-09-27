@@ -1,5 +1,5 @@
 import  { useContext, useRef, useState } from "react";
-import style from "./postAds.module.css";
+import style from "./PostAds.module.css";
 import {  useNavigate } from "react-router";
 import { PostContext } from "../../Context/PostProvider";
 import { FiKey, FiUpload } from "react-icons/fi";
