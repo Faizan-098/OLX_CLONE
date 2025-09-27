@@ -1,5 +1,4 @@
-import React from 'react'
-import PostAds from '../Component/Sell/postAds'
+import PostAds from '../Component/Sell/PostAds'
 
 const Sell = () => {
   return (

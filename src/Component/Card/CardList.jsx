@@ -5,7 +5,6 @@ import { PostContext } from '../../Context/PostProvider'
 import { Link } from 'react-router'
 const CardList = () => {
  const {postData} = useContext(PostContext);
-console.log(postData);
 
   return (
    <>
